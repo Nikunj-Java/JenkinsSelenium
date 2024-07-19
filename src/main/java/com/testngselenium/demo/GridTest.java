@@ -21,6 +21,7 @@ public class GridTest {
 			WebDriver driver= new RemoteWebDriver(url, cap);
 			driver.get("https://www.google.com/");
 			System.out.println("Title: "+driver.getTitle());
+			System.out.println("Test Completed Successfully");
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
