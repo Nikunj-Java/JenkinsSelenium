@@ -33,7 +33,7 @@ public class GroupTest {
 	  driver1.findElement(By.name("login")).click();
 	  
 		  try {
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			driver1.close();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
@@ -63,7 +63,7 @@ public class GroupTest {
 	  driver2.findElement(By.name("login")).click();
 	  
 		  try {
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			driver2.close();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
